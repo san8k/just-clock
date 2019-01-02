@@ -1,0 +1,16 @@
+$black: #000;
+
+@font-face {
+    font-family: 'SF Digital';
+    src: url('../../../fonts/SFDigitalReadoutMediumOblique.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: $black;
+}
